@@ -1,0 +1,38 @@
+{
+  "name": "rails-utils",
+  "version": "0.0.1",
+  "description": "A set of utilities to assist in using node with Rails",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baberthal/rails-utils.git"
+  },
+  "keywords": [
+    "rails",
+    "utils",
+    "gulp",
+    "npm",
+    "node"
+  ],
+  "author": "J. Morgan Lieberthal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baberthal/rails-utils/issues"
+  },
+  "homepage": "https://github.com/baberthal/rails-utils#readme",
+  "dependencies": {
+    "sprockets-chain": "0.0.15"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3",
+    "should": "^8.4.0"
+  }
+}
